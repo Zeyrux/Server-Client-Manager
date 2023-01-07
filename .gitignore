@@ -2,3 +2,6 @@ venv
 build
 dist
 serverclientmanager.egg-info
+test_server.py
+test_client.py
+__pycache__

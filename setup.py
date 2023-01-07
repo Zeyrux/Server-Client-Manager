@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = "0.0.1"
+VERSION = "0.0.12"
 DESCRIPTION = "authenticate and send files to a server and back"
 
 # Setting up
@@ -12,7 +12,7 @@ setup(
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     packages=find_packages(),
-    install_requires=[],
+    install_requires=["werkzeug"],
     keywords=["python", "sockets"],
     classifiers=[
         "Development Status :: 1 - Planning",
